@@ -20,7 +20,7 @@ function App() {
 
   const fetchBooks = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/api/Allbooks');
+      const response = await axios.get('https://bookstack-back.onrender.com/api/Allbooks');
       setBooks(response.data);
     } catch (error) {
       console.error('Error fetching books:', error);
@@ -30,7 +30,7 @@ function App() {
   // Function to add a new book using Axios
   const addBook = async () => {
     try {
-      await axios.post('http://localhost:3000/api/books', newBook, {
+      await axios.post('https://bookstack-back.onrender.com/api/books', newBook, {
         headers: { 'Content-Type': 'application/json' },
       });
       fetchBooks();
@@ -43,7 +43,7 @@ function App() {
   const editBook = async (book) => {
     console.log(book)
     try {
-      await axios.put(`http://localhost:3000/api/books/${book._id}`, book, {
+      await axios.put(`https://bookstack-back.onrender.com/api/books/${book._id}`, book, {
         headers: { 'Content-Type': 'application/json' },
       });
       fetchBooks();
@@ -56,7 +56,7 @@ function App() {
   const deleteBook = async (bookId) => {
     try {
       console.log(bookId)
-      await axios.delete(`http://localhost:3000/api/books/${bookId._id}`);
+      await axios.delete(`https://bookstack-back.onrender.com/api/books/${bookId._id}`);
       fetchBooks();
     } catch (error) {
       console.error('Error deleting a book:', error);
