@@ -61,7 +61,6 @@ To set up and run the application locally, follow these steps:
 1. Clone the repository from GitHub.
 2. Install Node.js and npm if not already installed.
 3. Navigate to the project directory in the terminal.
-4. Run the following commands:
-   ```bash
-  cd to back and npm install
-   npm start
+4.  cd to back and npm install
+5.  npm start 
+ 
