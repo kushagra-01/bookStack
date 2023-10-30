@@ -1,0 +1,51 @@
+/* Book.module.css */
+
+.book-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .book-details {
+    margin-bottom: 10px;
+  }
+  
+  .book-title {
+    font-size: 18px;
+  }
+  
+  .book-author {
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+  .book-summary {
+    font-size: 14px;
+  }
+  
+  .edit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
