@@ -14,6 +14,9 @@ router.post('/api/books', async (req, res) => {
   }
 });
 
+
+
+
 // Read (View a list of all books)
 router.get('/api/Allbooks', async (req, res) => {
   const books = await Book.find();
@@ -33,6 +36,9 @@ router.get('/:id', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+
+
 
 // Update (Update a book's details)
 router.put('/api/books/:id', async (req, res) => {
