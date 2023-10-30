@@ -65,18 +65,3 @@ To set up and run the application locally, follow these steps:
    ```bash
   cd to back and npm install
    npm start
-   ```
-5. The API will be available at `http://localhost:3000`.
-
-## Deployment
-You can deploy the API on a server of your choice. The deployment process may vary depending on your chosen server and platform. Be sure to update the application's configuration and provide server-specific instructions in your deployment section.
-
-## Decisions and Assumptions
-In this section, you can mention any decisions you made during the development process, such as the choice of libraries, authentication methods, and other design considerations. Additionally, you can document any assumptions you made regarding user behavior and data structures.
-
-## Video Demonstration
-Provide a link to your video demonstration where you showcase the CRUD operations of the API. Ensure that you cover all possible test cases, including edge cases.
-
-[Link to Video Demonstration](your-video-link-here)
-
-Feel free to expand on each section and customize the documentation to match your specific implementation. This documentation will help users understand how to use your API and set it up locally or on a server.
